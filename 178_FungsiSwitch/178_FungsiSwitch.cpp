@@ -3,7 +3,7 @@ using namespace std;
 
 int luas;
 
-void prosedureLuas(int p, int l)
+void prosedurLuas(int p, int l)
 {
 	luas = p * l;
 }
@@ -20,5 +20,8 @@ int main()
 	cin >> panjang;
 	cout << "Masukan lebar : ";
 	cin >> lebar;
+
+	prosedurLuas(panjang, lebar);
+	
 
 }
