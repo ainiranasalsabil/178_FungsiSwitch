@@ -16,5 +16,7 @@ int fungsiLuas(int p, int l)
 int main()
 {
 	int panjang, lebar;
+	cout << "Masukan panjang: ";
+	cin >> panjang;
 	
 }
